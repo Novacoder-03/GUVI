@@ -1,0 +1,54 @@
+/* CSS for styling profile.html */
+
+body {
+  background-color: #d1f7d5; /* Light green background color for the body */
+  font-family: Arial, sans-serif; /* Font family for the text */
+}
+
+.container {
+  margin-top: 50px; /* Margin from the top */
+}
+
+.card {
+  width: 70%; /* Width of the card */
+  margin: 0 auto; /* Center the card horizontally */
+  background-color: #ffffff; /* White background color for the card */
+  border-radius: 20px; /* Border radius for the card */
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1); /* Box shadow for the card */
+}
+
+.card-header {
+  background-color: #28a745; /* Dark green background color for the card header */
+  color: #ffffff; /* White text color for the card header */
+  border-top-left-radius: 20px; /* Border radius for the top left corner of the card header */
+  border-top-right-radius: 20px; /* Border radius for the top right corner of the card header */
+  padding: 30px; /* Padding for the card header */
+  text-align: center; /* Center align text in the card header */
+}
+
+.card-body {
+  padding: 30px; /* Padding for the card body */
+}
+
+.form-group {
+  margin-bottom: 30px; /* Margin bottom for the form groups */
+}
+
+.form-control {
+  border-radius: 10px; /* Border radius for form controls */
+}
+
+.btn-primary {
+  background-color: #218838; /* Dark green background color for primary buttons */
+  border-color: #218838; /* Border color for primary buttons */
+  border-radius: 10px; /* Border radius for primary buttons */
+  padding: 10px 20px; /* Padding for primary buttons */
+  font-weight: bold; /* Bold font weight for primary buttons */
+}
+
+.btn-primary:hover {
+  background-color: #1e7e34; /* Darker green background color for primary buttons on hover */
+  border-color: #1e7e34; /* Border color for primary buttons on hover */
+}
+
+/* Additional styles can be added as needed */

@@ -1,0 +1,36 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #28a745; /* Background color in green theme */
+    color: #fff; /* Text color */
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    color: black; /* Text color for Guvi in green */
+    font-size: 259 px;
+}
+h1{
+    text-size-adjust: 100000px;
+}
+button {
+    text-size-adjust: 100000px;
+    padding: 10px 20px;
+    background-color: #28a745; /* Button background color in green */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Adjust button margin */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}

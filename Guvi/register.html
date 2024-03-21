@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GUVI - Sign In</title>
+<link rel="stylesheet" href="css\register.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Include MongoDB JavaScript driver -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mongodb/4.4.6/mongodb.min.js"></script>
+<script src="js\register.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="title">GUVI</div>
+    <div class="form">
+      <form id="signInForm">
+        <input type="text" id="username" name="username" placeholder="Username" required><br>
+        <input type="text" id="name" name="name" placeholder="Name" required><br>
+        <input type="email" id="email" name="email" placeholder="Email" required><br>
+        <input type="password" id="password" name="password" placeholder="Password" required><br>
+        <button id="register-btn" type="submit">Sign In</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

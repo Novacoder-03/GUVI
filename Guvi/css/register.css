@@ -1,0 +1,60 @@
+/* CSS for Login Page */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; /* Background color for the body */
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px; /* Margin from the top */
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #28a745; /* Text color for the title */
+  margin-bottom: 30px; /* Margin bottom for the title */
+}
+
+.form {
+  width: 300px;
+  margin: 0 auto; /* Center the form horizontally */
+  background-color: #fff; /* Background color for the form */
+  border-radius: 10px;
+  padding: 20px; /* Padding for the form */
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Box shadow for the form */
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  transition: border-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.form input:hover {
+  border-color: #28a745; /* Border color for the input on hover */
+}
+
+.form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745; /* Background color for the button */
+  color: #fff; /* Text color for the button */
+  border: none; /* Remove border for the button */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.form button:hover {
+  background-color: #218838; /* Background color for the button on hover */
+}
+
+/* Additional styles can be added as needed */

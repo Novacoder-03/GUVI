@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src = "./js/profile.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h1 class="text-center">Welcome, <span id="username"></span></h1>
+            </div><br/>
+            <button id="show-profile-btn" class="btn btn-primary">Show Profile</button>
+            <div class="card-body">
+                <form id="update-profile-form">
+                    <div class="form-group">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="dob">Date of Birth:</label>
+                        <input type="date" id="dob" name="dob" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="age">Age:</label>
+                        <input type="number" id="age" name="age" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">Gender:</label>
+                        <select id="gender" name="gender" class="form-control">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact">Contact:</label>
+                        <input type="text" id="contact" name="contact" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="state">State:</label>
+                        <input type="text" id="state" name="state" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="education">Education:</label>
+                        <input type="text" id="education" name="education" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="occupation">Occupation:</label>
+                        <input type="text" id="occupation" name="occupation" class="form-control" required>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Update Profile</button><br/>
+                   
+                </form>
+                <br/>
+                <button id="logout-btn" class="btn btn-danger">Logout</button>
+
+            </div>
+        </div>
+    </div>
+    <div id="profileModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="close-profile-modal">&times;</span>
+            <h2>Profile Details</h2>
+            <div id="profile-details"></div>
+        </div>
+    </div>
+    <script src="js/profile.js"></script>
+</body>
+
+</html>
